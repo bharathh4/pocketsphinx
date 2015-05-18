@@ -72,7 +72,7 @@ public class PocketSphinxActivity extends Activity implements
     @Override
     public void onCreate(Bundle state) {
         super.onCreate(state);
-
+        // Added a comment
         // Prepare the data for UI
         captions = new HashMap<String, Integer>();
         captions.put(KWS_SEARCH, R.string.kws_caption);
