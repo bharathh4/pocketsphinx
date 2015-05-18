@@ -74,6 +74,7 @@ public class PocketSphinxActivity extends Activity implements
         super.onCreate(state);
         // Added a comment
         // Prepare the data for UI
+        // One more comment
         captions = new HashMap<String, Integer>();
         captions.put(KWS_SEARCH, R.string.kws_caption);
         captions.put(MENU_SEARCH, R.string.menu_caption);
